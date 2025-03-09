@@ -10,6 +10,6 @@ public class Event {
     private int id;
     private String description;
     private double capacity;
-    private String startDate;
-    private String endDate;
+    private LocalDate startDate;
+    private LocalDate endDate;
 }
